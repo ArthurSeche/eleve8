@@ -1,20 +1,7 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <script>
-window.dataLayer = window.dataLayer || [];
-window.dataLayer.push({
-  'event': 'pageType',
-  'pageCategory': 'excercices',      
-});
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-54H34889');</script>
-<!-- End Google Tag Manager -->
+
   <meta charset="utf-8">
   <title>Exercice 1</title>
   <meta name="description" content="Ceci est la page d'exercices"> 
@@ -23,12 +10,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  
   
 </head>
-<body> <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WN2GDX75"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-  
+<body> 
   <div class="container">
     <div class="main">
       <div class="header">
@@ -40,19 +22,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p> Tracker les liens suivants en utilisant les quatre méthodes suivantes : variables / class / datalayer.push / sélecteur CSS </p>
 
 <p>
-  <a href="https://arthurseche.github.io/eleve8/hello.html" id="link-variable">Lien avec variable</a>
+  <a href="https://arthurseche.github.io/eleve8/hello.html" >Lien avec variable</a>
 </p>
 
 <p>
-  <a class="track-link" href="https://arthurseche.github.io/eleve8/hello.html">Lien avec classe</a>
+  <a  href="https://arthurseche.github.io/eleve8/hello.html">Lien avec classe</a>
 </p>
 
 <p>
-  <a href="https://arthurseche.github.io/eleve8/hello.html" id="link-datalayer" onclick="dataLayer.push({'event': 'clic_exam_hp3'});">Lien avec dataLayer.push</a>
+  <a href="https://arthurseche.github.io/eleve8/hello.html" >Lien avec dataLayer.push</a>
 </p>
 
 <p>
-  <a class="css-selector-link" href="https://arthurseche.github.io/eleve8/hello.html">Lien avec sélecteur CSS</a>
+  <a  href="https://arthurseche.github.io/eleve8/hello.html">Lien avec sélecteur CSS</a>
 </p>
 
 
@@ -65,7 +47,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h1> Exercice 4 <h1>
  <p> Tracker l'envoi de ce formulaire</p> 
     
-<form class="form-newsletter">
+<form >
   <fieldset>
     <legend>Formulaire</legend>
     <p class="note"> Un simple formulaire d'exercice </p>
